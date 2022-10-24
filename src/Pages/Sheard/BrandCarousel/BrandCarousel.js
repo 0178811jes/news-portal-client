@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import banner1 from '../../../assets/Brand/banner-1.jpg';
+import banner2 from '../../../assets/Brand/banner-2.jpg';
 
 const BrandCarousel = () => {
     return (
@@ -19,7 +20,7 @@ const BrandCarousel = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
+            src={banner2}
             alt="Second slide"
           />
   
